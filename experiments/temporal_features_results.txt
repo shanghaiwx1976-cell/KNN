@@ -1,0 +1,20 @@
+================================================================================
+FINAL SUMMARY - Agent5 Temporal Features
+================================================================================
+lag1_delta                     IC=0.5091 net=1.1195 mdd=-0.4509
+A7_baseline                    IC=0.5079 net=0.6094 mdd=-0.3649
+lag1_only                      IC=0.5074 net=0.6752 mdd=-0.4311
+lag12_delta_rstd               IC=0.5054 net=0.3146 mdd=-0.5311
+lag12_delta_b04                IC=0.5045 net=0.4343 mdd=-0.5167
+lag12_delta_keyfactors         IC=0.5020 net=0.2152 mdd=-0.5024
+lag12_delta_b03                IC=0.5017 net=0.5052 mdd=-0.5352
+lag12_delta                    IC=0.5015 net=0.2770 mdd=-0.5354
+
+BEST: lag1_delta IC=0.5091
+
+Conclusion:
+- Temporal feature augmentation provides marginal IC improvement (+0.0012)
+- Best variant (lag1_delta) improved net returns significantly (1.12 vs 0.61)
+- However, drawdown worsened (-0.45 vs -0.36)
+- Target IC of 0.55 was NOT achieved
+- The approach does not capture enough signal to meaningfully improve stock selection IC
