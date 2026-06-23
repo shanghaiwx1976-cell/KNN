@@ -1,0 +1,38 @@
+{
+  "B0_rule_champion": {
+    "net_total": 2.653145527438559,
+    "precision_at5": 0.2777777777777778,
+    "top_real_rank_pct": 0.5394427301764259,
+    "n_days": 252,
+    "mean_daily_pnl": 0.010528355267613329,
+    "max_drawdown": -0.2967067894577847,
+    "mean_invested": 0.7611111111111112,
+    "frac_win_days": 0.5674603174603174
+  },
+  "A7_champion": {
+    "net_total": 3.382952467910295,
+    "precision_at5": 0.3253968253968254,
+    "top_real_rank_pct": 0.5540084673780326,
+    "n_days": 252,
+    "mean_daily_pnl": 0.013424414555199583,
+    "max_drawdown": -0.2050150442566151,
+    "mean_invested": 0.7777777777777778,
+    "frac_win_days": 0.623015873015873
+  },
+  "A7_M14_champion": {
+    "net_total": 2.1731840706712866,
+    "precision_at5": 0.2619047619047619,
+    "top_real_rank_pct": 0.5260660977508803,
+    "n_days": 252,
+    "mean_daily_pnl": 0.008623746312187645,
+    "max_drawdown": -0.24291909094053932,
+    "mean_invested": 0.7777777777777778,
+    "frac_win_days": 0.5595238095238095
+  },
+  "competition_test_score": -0.014666841292297481,
+  "baseline_transformer_final_score": 0.037838,
+  "strategy": "A7_TOP2_DD10",
+  "timestamp": "2026-06-23T02:43:44.240833",
+  "a7_beta": 0.5,
+  "m14_gate_quantile": 0.5
+}
